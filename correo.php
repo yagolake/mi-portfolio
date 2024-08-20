@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = htmlspecialchars($_POST['message']);
 
     // Tu dirección de correo electrónico
-    $para = 'tu-direccion@correo.com'; // Reemplaza con tu dirección de correo
+    $para = 'lasou.studio@gmail.com'; // Reemplaza con tu dirección de correo
 
     // Asunto del correo
     $asunto = 'Nuevo mensaje del formulario de contacto';
