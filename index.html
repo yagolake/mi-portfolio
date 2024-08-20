@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lasou studio</title>
+    <title>Lasou Studio</title>
     <style>
         body {
-            font-family: Roboto, sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             color: #333;
             margin: 0;
@@ -19,20 +19,23 @@
             background-color: #000;
             color: #fff;
             width: 100%;
-            padding: 20px 0;
-            text-align: center;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
         }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
+        header img {
+            height: 40px;
         }
         nav {
-            margin: 20px 0;
+            display: flex;
+            align-items: center;
         }
         nav a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
-            margin: 0 15px;
+            margin-left: 20px;
             font-size: 1.2rem;
         }
         nav a:hover {
@@ -91,13 +94,12 @@
 </head>
 <body>
     <header>
-        <h1>Portafolio de Diseño Streetwear</h1>
+        <img src="https://via.placeholder.com/100x40?text=Logo" alt="Logo">
+        <nav>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
-
-    <nav>
-        <a href="#portfolio">Portafolio</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
 
     <section id="portfolio" class="portfolio">
         <h2>Mis Diseños</h2>
@@ -126,3 +128,4 @@
     </footer>
 </body>
 </html>
+
