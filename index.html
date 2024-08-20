@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Diseño Streetwear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            width: 100%;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .portfolio h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .portfolio p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px 0;
+            width: 100%;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portafolio de Diseño Streetwear</h1>
+    </header>
+
+    <nav>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Mis Diseños</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Diseño 1">
+        <p>Descripción del Diseño 1</p>
+
+        <img src="https://via.placeholder.com/800x400" alt="Diseño 2">
+        <p>Descripción del Diseño 2</p>
+
+        <img src="https://via.placeholder.com/800x400" alt="Diseño 3">
+        <p>Descripción del Diseño 3</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="https://example.com/form-handler" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portafolio de Diseño Streetwear. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
